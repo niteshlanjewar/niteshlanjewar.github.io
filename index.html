@@ -1,50 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
-</head>
-<body>
-
-    <!-- --------navbar--------- -->
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nitesh R Lanjewar</title>
+    <link rel="stylesheet" href="new.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+      integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
     <nav class="navbar">
-        <ul class="link-group">
-            <li class="link active"><a href="#">home</a></li>
-            <li class="link"><a href="#">projects</a></li>
-            <li class="link"><a href="#">about</a></li>
-            <li class="link"><a href="#">contact</a></li>
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Nitesh R Lanjewar</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">Skills & Tools</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Projects</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a
+              href="https://drive.google.com/file/d/14ndNn0pOOO0sPiP-qGNclJoxVVOI1W1C/view?usp=sharing"
+              class="button"
+              id="signup"
+              >Download CV</a
+            >
+          </li>
         </ul>
+      </div>
     </nav>
 
-   <!-- home section -->
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">
+            Hello I am  <br> Nitesh Lanjewar
+          <!-- <span
+            class="type"
+            data-wait="3000"
+            data-words='["The Web Developer","React.Js-Developer","JavaScript-NodeJs Developer"]'
+          ></span> -->
+        </h1>
+        <p class="hero__description">Check My CV.</p>
+        <button class="main__btn">
+          <a
+            href="https://drive.google.com/file/d/14ndNn0pOOO0sPiP-qGNclJoxVVOI1W1C/view?usp=sharing"
+            >Resume➡</a
+          >
+        </button>
+      </div>
+    </div>
 
-<section class="home-section">
-    <h1 class="hero-heading">hello, i am <br>Nitesh Lanjewar</h1>
-    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="home-img" alt="">
-</section>
-  
-   <!-- project section -->
-
-   <section class="project-section">
-    <h1 class="project-heading">My Projects</h1>
-    <div class="project-container">
-        <div class="project-card">
-            <img src="https://www.amazonswatchmagazine.com/wp-content/uploads/2021/11/Nykaa-.jpg" class="project-img" alt="">
-            <div class="project-content">
-            <h1 class="project-title">project 01</h1>
-            <p class="project-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, repellendus?</p>
-            <div class="project-btn-grp">
-                <button class="project-btn-github">Git-hub</button>
-                <button class="project-btn-live">Live</button>
-            </div>
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+            <img src="./undraw_programming.svg" alt="" />
+            <!-- <i class="fas fa-layer-group"></i> -->
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>Tech</h1>
+          <div class="skill-section">
+            <!-- <h1 class="heading">Skills</h1> -->
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="https://www.developer.com/wp-content/uploads/2021/09/Java-tutorials.jpg" class="skill-img" alt="">
+                    <!-- <div class="skill-level">98%</div> -->
+                    <!-- <h1 class="skill-name">JAVA</h1> -->
+                </div>
+                <div class="skill-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU" class="skill-img" alt="">
+                    <!-- <div class="skill-level">98%</div> -->
+                    <!-- <h1 class="skill-name">HTML</h1> -->
+                </div>
+                <div class="skill-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" class="skill-img" alt="">
+                    <!-- <div class="skill-level">98%</div> -->
+                    <!-- <h1 class="skill-name">CSS</h1> -->
+                </div>
+                <div class="skill-card">
+                    <img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" class="skill-img" alt="">
+                    <!-- <div class="skill-level">98%</div> -->
+                    <!-- <h1 class="skill-name">React</h1> -->
+                    
+                </div>
+                <div class="skill-card">
+                    <img src="https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png" class="skill-img" alt="">
+                    <!-- <div class="skill-level">98%</div> -->
+                    <!-- <h1 class="skill-name">Java-Script</h1> -->
+                    
+                </div>
             </div>
         </div>
+          <!-- <p>Checkout my projects, I hosted online to showcase my skills.</p> -->
+          <!-- <button class="main__btn"><a href="#">See Projects</a></button> -->
+        </div>
+      </div>
     </div>
-   </section>
 
-</body>
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>My Projects</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <div class="main__img--card2">
+            <img src="./undraw_task_list_6x9d.svg" alt="" />
+          </div>
+          <h2>GreenHouse</h2>
+          <p>A website made with HTML, CSS, JS to search new opportunities.</p>
+          <div class="services__btn">
+            <button>
+              <a class="links" href="https://list-checker.netlify.app/"
+                >Live Project</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="services__card">
+          <div class="main__img--card2">
+            <img src="./undraw_shopping_app_flsj.svg" alt="" />
+          </div>
+          <h2>Nykaa Clone</h2>
+          <p>
+            Nykaa Clone Web App with Sign In and Sign Out feature, browse
+            products, add products in cart, get the total price of products.
+            Using authentication for login and logout feature.
+          </p>
+          <div class="services__btn">
+            <button>
+              <a class="links" href="https://clone-8d5ac.web.app/"
+                >Live Project</a
+              >
+            </button>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items"></div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+        
+          <p class="website__rights">Contact Me ➡</p>
+          <div class="social__icons">
+            <a
+              href=""
+              class="social__icon--link"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href=""
+              class="social__icon--link"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a class="social__icon--link"
+              ><i class="fab fa-github" target="_blank"></i
+            ></a>
+            <a
+              class="social__icon--link"
+              ><i class="fab fa-linkedin" target="_blank"></i
+            ></a>
+            <!-- <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a> -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
+<script>
+    const menu = document.querySelector("#mobile-menu");
+const menuLinks = document.querySelector(".navbar__menu");
+const navLogo = document.querySelector("#navbar__logo");
+
+// Display Mobile Menu
+const mobileMenu = () => {
+  menu.classList.toggle("is-active");
+  menuLinks.classList.toggle("active");
+};
+
+menu.addEventListener("click", mobileMenu);
+
+// Show active menu when scrolling
+const highlightMenu = () => {
+  const elem = document.querySelector(".highlight");
+  const homeMenu = document.querySelector("#home-page");
+  const aboutMenu = document.querySelector("#about-page");
+  const servicesMenu = document.querySelector("#services-page");
+  let scrollPos = window.scrollY;
+  // console.log(scrollPos);
+
+  // adds 'highlight' class to my menu items
+  if (window.innerWidth > 960 && scrollPos < 600) {
+    homeMenu.classList.add("highlight");
+    aboutMenu.classList.remove("highlight");
+    servicesMenu.classList.remove("highlight");
+    return;
+  } else if (window.innerWidth > 960 && scrollPos < 1400) {
+    aboutMenu.classList.add("highlight");
+    homeMenu.classList.remove("highlight");
+    servicesMenu.classList.remove("highlight");
+    return;
+  } else if (window.innerWidth > 960 && scrollPos < 2345) {
+    servicesMenu.classList.add("highlight");
+    aboutMenu.classList.remove("highlight");
+    homeMenu.classList.remove("highlight");
+    return;
+  }
+
+  if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
+    elem.classList.remove("highlight");
+  }
+};
+
+window.addEventListener("scroll", highlightMenu);
+window.addEventListener("click", highlightMenu);
+
+//  Close mobile Menu when clicking on a menu item
+const hideMobileMenu = () => {
+  const menuBars = document.querySelector(".is-active");
+  if (window.innerWidth <= 768 && menuBars) {
+    menu.classList.toggle("is-active");
+    menuLinks.classList.remove("active");
+  }
+};
+
+menuLinks.addEventListener("click", hideMobileMenu);
+navLogo.addEventListener("click", hideMobileMenu);
+
+//TypeWriter Effect
+// SELECT ELEMENTS FROM OUR DOM
+document.addEventListener("DOMContentLoaded", init);
+// INIT FUNCTION
+function init() {
+  // GRAP ALL ELEMENT & ATTRIBUTE
+  const txtElement = document.querySelector(".type");
+  // GET THE ATTRIBUTES OF TXT ELEMENT AND PARSE ITS DATA & REMEMBER JSON DATA SHOULD BE ON "" NOT ''
+  const words = JSON.parse(txtElement.getAttribute("data-words"));
+  const wait = txtElement.getAttribute("data-wait");
+  console.log(txtElement);
+  console.log(words);
+  console.log(wait);
+  // INITILIZE TYPE WRITER & WE MAKE IT BY NEW
+  new typeWriter(txtElement, words, wait);
+}
+// TYPE WRITER FUNCTION
+const typeWriter = function (txtElement, words, wait = 3000) {
+  // TEXT ELEMENT THAT PASSED IN
+  this.txtElement = txtElement;
+  // WORDS THAT PASSEF IN
+  this.words = words;
+  // WAIT TIME THAT PASSEF IN
+  this.wait = parseInt(wait, 10);
+  // TXT YOU WILL SEE AT RELOAD
+  this.txt = "";
+  // ARRAY OF WORDS
+  this.indexOfTheWord = 0;
+  // THE MAIN METHOD THAT WILL BE WORK WITH TYPE WRITER
+  this.type();
+  // REPRESENT THE STATE IF IT DELETING OR NOT
+  this.isDeleteing = false;
+};
+// CREATE OUR TYPE METHOD
+typeWriter.prototype.type = function () {
+  // GET THE CURRNET INDEX OF THE WORD
+  const currnet = this.indexOfTheWord % this.words.length;
+  // console.log(currnet);
+  // GET THE FULL TEXT OF A CURRNET WIRD
+  const fullTxt = this.words[currnet];
+  // console.log(fullTxt);
+  // CHECK IF DELETING
+  if (this.isDeleteing) {
+    // REMOVE CHAR
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    // ADD CHAR
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+  // INSERT TXT INTO TXTELEMENT
+  this.txtElement.innerHTML = `<span class="txt"> ${this.txt} </span>`;
+  // LETS MAKE THE TYPE SPEED
+  let typeSpeed = 200;
+  if (this.isDeleteing) {
+    typeSpeed /= 2;
+  }
+  // CHECK IF THE WORD IS COMPELETE GO TO THE OTHER WORD
+  if (!this.isDeleteing && this.txt === fullTxt) {
+    // MAKE THE COMPELETE WORD PAUSE
+    typeSpeed = this.wait;
+    // SET ISDELETING VARIABLE TO TRUE
+    this.isDeleteing = true;
+    console.log("Pasue");
+  }
+  if (this.isDeleteing && this.txt === "") {
+    this.isDeleteing = false;
+    // MOVE TO THE NEXT WORD
+    this.indexOfTheWord++;
+    // PAUSE BEFORE START TYPING
+    typeSpeed = 400;
+    console.log("Delete");
+  }
+  setTimeout(() => this.type(), typeSpeed);
+};
+</script>
