@@ -19,7 +19,7 @@ function App() {
         <Contact />
       </div>
       <p className="text-center text-gray-500 text-base">
-        © 2023. All rights reserved by Nagendra Choudhary
+        © 2023. All rights reserved by Nitesh Lanjewar
       </p>
     </div>
   );
