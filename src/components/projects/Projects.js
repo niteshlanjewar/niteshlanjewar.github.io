@@ -45,22 +45,14 @@ const Projects = () => {
           deploy={'https://greenhouseclone.netlify.app/'}
           tackstack={ 'HTML, CSS, JavaScript'}
           />
-          <ProjectsCard
           
-          title="Snake Game"
-          des="Snake Game with Three Diff Mode"
-          src={projectFour}
-          git={'https://github.com/nagendrachoudhary/snakegame'}
-          deploy={'https://snakegameindia.netlify.app/'}
-          tackstack={ 'HTML, CSS, JavaScript'}
-          />
           <ProjectsCard
           
           title="CALCULATOR"
           des="calculator with all functionality with use react js css"
           src={projectFive}
-          git={'https://github.com/nagendrachoudhary/calculator'}
-          deploy={'https://calculatorindia.netlify.app'}
+          git={'https://github.com/niteshlanjewar/Calculator'}
+          deploy={'https://calculator1621.netlify.app/'}
           tackstack={ 'React, CSS, JavaScript'}
           />
       </div>
