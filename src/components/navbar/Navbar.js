@@ -12,7 +12,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
   const downloadResume = async () => {
     window.open(
-      "./Nitesh_Lanjewar-Resume.pdf"
+      "./Nitesh_Lanjewar-Resume,.pdf"
     );
   };
   return (
@@ -106,7 +106,7 @@ const Navbar = () => {
               id="resume-button-1"
             >
               <a
-                href="./Nitesh_Lanjewar-Resume.pdf"
+                href="./Nitesh_Lanjewar-Resume,.pdf"
                 download={true}
                 target={"_blank"}
                 rel="noreferrer"
@@ -208,7 +208,7 @@ const Navbar = () => {
                     duration={500}
                   >
                     <a
-                      href="./Nitesh_Lanjewar-Resume.pdf"
+                      href="./Nitesh_Lanjewar-Resume,.pdf"
                       download={true}
                       target={"_blank"}
                       rel="noreferrer"

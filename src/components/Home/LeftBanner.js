@@ -15,7 +15,7 @@ const LeftBanner = () => {
     });
     const downloadResume = async () => {
       window.open(
-        "./Nitesh_Lanjewar-Resume.pdf"
+        "./Nitesh_Lanjewar-Resume,.pdf"
       );
     };
   return (
@@ -45,7 +45,7 @@ const LeftBanner = () => {
           >
             <a
               id="resume-link-2"
-              href="./Nitesh_Lanjewar-Resume.pdf"
+              href="./Nitesh_Lanjewar-Resume,.pdf"
               download={true}
               target={"_blank"}
               rel="noreferrer"
